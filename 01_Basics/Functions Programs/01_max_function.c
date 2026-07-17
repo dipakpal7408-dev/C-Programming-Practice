@@ -19,9 +19,9 @@ int main()
     printf("Enter second number:");
     scanf("%d", &num2);
 
-    result = max(num1, num2);
+    result = max(num1, num2); //compair a max fun.
 
-    printf("Maximum number = %d\n", result);
+    printf("Maximum number = %d\n", result); //print maximum number.
 
     return 0;
 }
